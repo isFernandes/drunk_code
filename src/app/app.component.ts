@@ -31,6 +31,7 @@ export class MyApp {
       }else{
         this.rootPage = TabsPage;
       }
+      //exibe o valor de setting no console log
       console.log(setting);
 
 

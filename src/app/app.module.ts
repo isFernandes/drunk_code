@@ -12,6 +12,10 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { IntroPageModule } from '../pages/intro/intro.module';
 import { SettingProvider } from '../providers/setting/setting';
+import { CuriositiesPage } from '../pages/curiosities/curiosities';
+import { DocumentationPage } from '../pages/documentation/documentation';
+import { HistoryPage } from '../pages/history/history';
+import { TipsPage } from '../pages/tips/tips';
 
 
 @NgModule({
@@ -20,7 +24,11 @@ import { SettingProvider } from '../providers/setting/setting';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    CuriositiesPage,
+    DocumentationPage,
+    HistoryPage,
+    TipsPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +41,11 @@ import { SettingProvider } from '../providers/setting/setting';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    CuriositiesPage,
+    DocumentationPage,
+    HistoryPage,
+    TipsPage
   ],
   providers: [
     StatusBar,
