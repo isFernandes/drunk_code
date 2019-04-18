@@ -11,8 +11,8 @@ page-home {
     
     .fundis{
         background-image: url(../../assets/imgs/FundoAplicativoIago.png);
-        
         color: whitesmoke;
+        text-align: center;
     }
 
     .button{
@@ -21,6 +21,16 @@ page-home {
         width: 180px;
         margin: 10px 0 1px 0;
         padding: 0;
-         
+    }
+
+    .title{
+        color: azure;
+        font-family: 'rockwell';
+    }
+
+    .paragrafo{
+        font-size: 17px;
+        color: azure;
+        font-family: 'rockwell';
     }
 }
