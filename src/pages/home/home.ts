@@ -15,34 +15,54 @@ export class HomePage {
 
   constructor(public navCtrl: NavController,
     public actionSheetCtrl:ActionSheetController) {  }
-  
+    
+    //controle de paginas do menu
     goToPage(pagina){
       const page = pagina;
-      console.log(page);
       this.navCtrl.push(page);
-  }
-  menu(){
+    }
+
+  //actionSheet configura para menu  
+  menu() {
     let actionSheet = this.actionSheetCtrl.create({
       title: 'Menu',
-      buttons:[{
+      buttons: [{
         text: 'Historia',
-        handler: ()=>{this.goToPage(HistoryPage);console.log('Historia Selecionada');}
-      },{
+        handler: () => {
+          this.goToPage(HistoryPage);
+          console.log('Historia Selecionada');
+        }
+      }, {
         text: 'Dicas',
-        handler: ()=>{this.goToPage(TipsPage);console.log('Dicas Selecionadas');}
-      },{
+        handler: () => {
+          this.goToPage(TipsPage);
+          console.log('Dicas Selecionadas');
+        }
+      }, {
         text: 'Curiosidades',
-        handler: ()=>{this.goToPage(CuriositiesPage);console.log('Curiosidades Selecionadas');}
-      },{
+        handler: () => {
+          this.goToPage(CuriositiesPage);
+          console.log('Curiosidades Selecionadas');
+        }
+      }, {
         text: 'Documentação',
-        handler: ()=>{this.goToPage(DocumentationPage);console.log('Documentação Selecionada');}
-      },{
+        handler: () => {
+          this.goToPage(DocumentationPage);
+          console.log('Documentação Selecionada');
+        }
+      }, {
         text: 'Ver intro?',
-        handler: ()=>{this.goToPage(IntroPage); console.log("Intro Selecionada")}
-      },{
+        handler: () => {
+          this.goToPage(IntroPage);
+          console.log("Intro Selecionada")
+        }
+      },
+      {
         text: 'Cancelar',
         role: 'cancel',
-        handler: ()=>{console.log('Cancelar Selecionado');}
+        handler: () => {
+          console.log('Cancelar Selecionado');
+        }
       },]
     });
     actionSheet.present();

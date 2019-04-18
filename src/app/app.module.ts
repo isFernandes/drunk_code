@@ -18,6 +18,7 @@ import { HistoryPage } from '../pages/history/history';
 import { TipsPage } from '../pages/tips/tips';
 
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -32,8 +33,10 @@ import { TipsPage } from '../pages/tips/tips';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    IntroPageModule
+    //tabsHideOnSubPages esconde tabs quando esta em uma subpagina
+    IonicModule.forRoot(MyApp,{tabsHideOnSubPages: true}),
+    IntroPageModule,
+     
   ],
   bootstrap: [IonicApp],
   entryComponents: [
