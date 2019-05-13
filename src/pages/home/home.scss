@@ -5,13 +5,13 @@ page-home {
     }
 
     .toolbar-background {
-        background-image: url(../../assets/imgs/FundoAplicativoIago.png);
-        
+        background-image: url(../../assets/imgs/fundoAplicativo.png);
       }
     
     .fundis{
         
-        background-image: url(../../assets/imgs/FundoAplicativoIago.png);
+        background-image: url(../../assets/imgs/fundoAplicativo.png);
+        background-size: cover;
         color: whitesmoke;
         text-align: center;
     }
@@ -32,13 +32,13 @@ page-home {
     .paragrafo{
         font-size: 17px;
         color: azure;
-        font-family: 'rockwell';
+        font-family: 'Segoe UI';
     }
 
     .lastParagrafo{
         height: 100%;
-        font-size: 17px;
+        font-size: 18px;
         color: azure;
-        font-family: 'rockwell';
+        font-family: 'Segoe UI';
     }
 }

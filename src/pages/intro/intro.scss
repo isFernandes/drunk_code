@@ -3,23 +3,28 @@ page-intro {
     .slideUm {
         background-image: url(../../assets/imgs/fundoSlide1.png);
         background-repeat: no-repeat;
+        background-size: cover;
     }
     .slideDois {
         background-image: url(../../assets/imgs/fundoSlide2.png);
         background-repeat: no-repeat;
+        background-size: cover;
     }
     .slideTres {
         background-image: url(../../assets/imgs/fundoSlide3.png);
         background-repeat: no-repeat;
+        background-size: cover;
     }
     .slideQuatro {
         background-image: url(../../assets/imgs/fundoSlide4.png);
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .fundis {
         color: white;
-        background-color: gray; 
+        background-color: gray;
+        background-size: cover;
     }
     .fundis a{
         margin: 0 auto;

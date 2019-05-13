@@ -28,30 +28,35 @@ export class HomePage {
       title: 'Menu',
       buttons: [{
         text: 'Historia',
+        icon: 'md-beer',
         handler: () => {
           this.goToPage(HistoryPage);
           console.log('Historia Selecionada');
         }
       }, {
         text: 'Dicas',
+        icon: 'md-book',
         handler: () => {
           this.goToPage(TipsPage);
           console.log('Dicas Selecionadas');
         }
       }, {
         text: 'Curiosidades',
+        icon: 'md-search',
         handler: () => {
           this.goToPage(CuriositiesPage);
           console.log('Curiosidades Selecionadas');
         }
       }, {
         text: 'Documentação',
+        icon: 'md-document',
         handler: () => {
           this.goToPage(DocumentationPage);
           console.log('Documentação Selecionada');
         }
       }, {
         text: 'Ver intro?',
+        icon: 'md-laptop',
         handler: () => {
           this.goToPage(IntroPage);
           console.log("Intro Selecionada")
@@ -59,6 +64,7 @@ export class HomePage {
       },
       {
         text: 'Cancelar',
+        icon: 'md-close-circle',
         role: 'cancel',
         handler: () => {
           console.log('Cancelar Selecionado');
