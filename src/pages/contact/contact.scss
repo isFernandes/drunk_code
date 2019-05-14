@@ -9,14 +9,19 @@ page-contact {
       }
     
     .fundis{
-        background-image: url(../../assets/imgs/fundoAplicativo.png);
+        background-image: url(../../assets/imgs/screenContact.png);
         background-color: #0c48b4;
+        background-size: cover;
         color: black;
     }
 
     .item{
-        background-color: steelblue;
-        opacity: 0.6;
+        background-color: #0c48b4;
+        opacity: 0.8;
         color:black;
+    }
+
+    .emails{
+        font-size: 16px;        
     }
 }
