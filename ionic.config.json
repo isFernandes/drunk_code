@@ -1,5 +1,7 @@
 {
   "name": "DrunkCode",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
