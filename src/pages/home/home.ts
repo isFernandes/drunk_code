@@ -35,7 +35,7 @@ export class HomePage {
         }
       }, {
         text: 'Dicas',
-        icon: 'md-book',
+        icon: 'md-information-circle',
         handler: () => {
           this.goToPage(TipsPage);
           console.log('Dicas Selecionadas');
