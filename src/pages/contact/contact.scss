@@ -14,14 +14,10 @@ page-contact {
         background-size: cover;
         color: black;
     }
-
-    .item{
-        background-color: #6b90cf;
-        opacity: 0.5;
-        color:white;
+    .lista{
+        height: 225%;
     }
-
-    .emails{
-        font-size: 16px;        
+    .paiDiv{
+        display: flex;
     }
 }
