@@ -6,6 +6,7 @@ page-contact {
 
     .toolbar-background {
         background-image: url(../../assets/imgs/fundoAplicativo.png);
+        color: black;
       }
     
     .fundis{
@@ -13,15 +14,34 @@ page-contact {
         background-color: #0c48b4;
         background-size: cover;
         color: black;
+        position: absolute;
+    }
+    .lista{
+        height: 120%;
+        color: black;
+        margin-bottom: 150px;
     }
 
     .item{
-        background-color: #6b90cf;
-        opacity: 0.5;
-        color:black;
+        background-image: linear-gradient(to bottom right, rgb(28, 157, 231), #0c48b4);
+        opacity: 0.8;
     }
 
-    .emails{
-        font-size: 16px;        
+    .paiDiv{
+        stop-opacity: initial;
+        display: flex;
     }
+
+    .dados{
+        margin: 10px;
+        align-items: center;
+        stop-opacity: unset;
+    }
+
+    .title{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
 }
