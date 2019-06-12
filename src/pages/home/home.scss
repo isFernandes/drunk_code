@@ -12,8 +12,10 @@ page-home {
         
         background-image: url(../../assets/imgs/screenHome.png);
         background-size: cover;
-        color: whitesmoke;
+        color: azure;
         text-align: center;
+        font-family: 'Segoe UI';
+        font-size:18px;
     }
 
     .button{
@@ -30,9 +32,10 @@ page-home {
     }
 
     .paragrafo{
-        font-size: 17px;
+        
         color: azure;
         font-family: 'Segoe UI';
+        text-align: justify;
     }
 
     .lastParagrafo{
@@ -40,5 +43,6 @@ page-home {
         font-size: 18px;
         color: azure;
         font-family: 'Segoe UI';
+        text-align: justify;
     }
 }
