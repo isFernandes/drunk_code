@@ -5,4 +5,15 @@ page-documentation {
         background-size: cover;
         color: black;
     }
+
+    .toolbar-background {
+        background-image: url(../../assets/imgs/FundoVermelho.png);
+        color: black;
+      }
+
+      #Pai{
+          display: flexbox;
+          color: black;
+          background-color: greenyellow;
+      }
 }

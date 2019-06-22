@@ -1,12 +1,31 @@
 page-history {
     .fundis{
-        background-image: url(../../assets/imgs/edited/screenHistory.png);
+        background-image: url(../../assets/imgs/edited/screenHistory2.png);
         background-color: #0c48b4;
         background-size: cover;
         color: black;
+        h3, h4{
+            text-align: center;
+            font-family: 'Gotham Bold';
+            border-radius: 1rem;
+            color: black;
+            background-color: transparentize($color: #DCDCDC, $amount: 0.6);
+        }
     }
 
+    .toolbar-background {
+        background-image: url(../../assets/imgs/edited/FundoVermelho.png);
+        color: white;
+      }
+    
     p{
-        color: black;
+        color: white;
+        font-size: 18px;
+        font-family: 'Gotham Light';
+        text-align: justify;
+    }
+
+    .slide{
+        border-radius: 4rem;
     }
 }
