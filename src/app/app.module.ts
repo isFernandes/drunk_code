@@ -12,10 +12,11 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { IntroPageModule } from '../pages/intro/intro.module';
 import { SettingProvider } from '../providers/setting/setting';
-import { CuriositiesPage } from '../pages/curiosities/curiosities';
-import { DocumentationPage } from '../pages/documentation/documentation';
-import { HistoryPage } from '../pages/history/history';
-import { TipsPage } from '../pages/tips/tips';
+
+import { CuriositiesPageModule } from '../pages/curiosities/curiosities.module';
+import { DocumentationPageModule } from '../pages/documentation/documentation.module';
+import { HistoryPageModule } from '../pages/history/history.module';
+import { TipsPageModule } from '../pages/tips/tips.module';
 
 
 
@@ -25,18 +26,17 @@ import { TipsPage } from '../pages/tips/tips';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage,
-    CuriositiesPage,
-    DocumentationPage,
-    HistoryPage,
-    TipsPage
+    TabsPage
   ],
   imports: [
     BrowserModule,
     //tabsHideOnSubPages esconde tabs quando esta em uma subpagina
     IonicModule.forRoot(MyApp,{tabsHideOnSubPages: true}),
     IntroPageModule,
-     
+    CuriositiesPageModule,
+    DocumentationPageModule,
+    HistoryPageModule,
+    TipsPageModule 
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -44,11 +44,7 @@ import { TipsPage } from '../pages/tips/tips';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage,
-    CuriositiesPage,
-    DocumentationPage,
-    HistoryPage,
-    TipsPage
+    TabsPage
   ],
   providers: [
     StatusBar,
