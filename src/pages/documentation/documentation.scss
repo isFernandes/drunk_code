@@ -1,19 +1,43 @@
 page-documentation {
-    .fundis{
-        background-image: url(../../assets/imgs/screenDocumentation.png);
-        background-color: #0c48b4;
-        background-size: cover;
-        color: black;
-    }
+  .fundis {
+    background-image: url(../../assets/imgs/screenDocumentation.png);
+    background-color: #0c48b4;
+    background-size: cover;
+    color: black;
+  }
 
-    .toolbar-background {
-        background-image: url(../../assets/imgs/FundoVermelho.png);
-        color: black;
-      }
+  .toolbar-background {
+    background-image: url(../../assets/imgs/FundoVermelho.png);
+    color: black;
+  }
 
-      #Pai{
-          display: flexbox;
-          color: black;
-          background-color: greenyellow;
+  h1 {
+    color: white;
+    border-radius: 2rem;
+  }
+
+  p {
+    font-size: 18px;
+    background: transparentize($color: rgb(136, 36, 36), $amount: 0.7);
+    color: transparentize($color: white, $amount: 0.24);
+    text-align: justify;
+    font-family: "Gotham Bold";
+    margin: 0 auto;
+  }
+
+  .icon{
+      width: 30px;
+      height: 30px;
+  }
+  div{
+      font-size: 18px;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+      a{
+          color: white;
+          margin-left: 10%;
+          margin-top: 20px;
       }
+  }
 }

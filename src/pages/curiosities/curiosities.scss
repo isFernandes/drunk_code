@@ -1,13 +1,35 @@
 page-curiosities {
-    .fundis{
-        background-image: url(../../assets/imgs/screenCuriosities.png);
-        background-color: #0c48b4;
-        background-size: cover;
-        color: black;
-    }
+  .fundis {
+    background-image: url(../../assets/imgs/screenCuriosities.png);
+    background-color: #0c48b4;
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }
 
-    .toolbar-background {
-        background-image: url(../../assets/imgs/FundoVermelho.png);
-        color: black;
-      }
+  .toolbar-background {
+    background-image: url(../../assets/imgs/FundoVermelho.png);
+    color: black;
+  }
+
+  h1, h4 {
+    color: white;
+    border-radius: 2rem;
+  }
+
+  p {
+    font-size: 18px;
+    background: transparentize($color: rgb(136, 36, 36), $amount: 0.7);
+    color: transparentize($color: white, $amount: 0.24);
+    text-align: justify;
+    font-family: "Gotham Bold";
+    margin: 0 auto;
+  }
+
+  .fonte{
+      font-size: 10.7px;
+      color: #c4c4c4;
+      text-decoration: none;
+      text-align: end;
+  }
 }

@@ -1,13 +1,33 @@
 page-tips {
-    .fundis{
-        background-image: url(../../assets/imgs/screenTips.png);
-        background-color: #0c48b4;
-        background-size: cover;
-        color: black;
-    }
+  .fundis {
+    background-image: url(../../assets/imgs/screenTips.png);
+    background-color: #0c48b4;
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }
 
-    .toolbar-background {
-        background-image: url(../../assets/imgs/FundoVermelho.png);
-        color: black;
-      }
+  .toolbar-background {
+    background-image: url(../../assets/imgs/FundoVermelho.png);
+    color: black;
+  }
+
+  h1 {
+    color: white;
+    border-radius: 2rem;
+  }
+  
+  p,
+  ul {
+    font-size: 18px;
+    background: transparentize($color: rgb(136, 36, 36), $amount: 0.7);
+    color: transparentize($color: #dcdcdc, $amount: 0.2);
+    text-align: justify;
+    font-family: "Gotham Bold";
+  }
+
+  ul {
+    background: none;
+  }
+  
 }
